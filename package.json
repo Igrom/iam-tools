@@ -1,0 +1,28 @@
+{
+  "name": "iam-tools",
+  "version": "1.0.0",
+  "description": "Faciliates work with generic IAM permissions.",
+  "main": "./src/index.js",
+  "keywords": [
+    "iam",
+    "user",
+    "check",
+    "permission",
+    "policy"
+  ],
+  "author": {
+    "name": "Igor Sowinski",
+    "email": "igorsowinski.mail@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Igrom/iam-tools.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
