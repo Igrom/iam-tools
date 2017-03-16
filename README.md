@@ -1,14 +1,14 @@
 # iam-tools
-Faciliates work with permissions of type:
+Faciliates work with sets of permission policies of type:
 
 ```javascript
 [ {
 	type: "type",
 	identifier: "identifier" | "*",
 	permissions: [
-		"scope1:scope2"
-		"scope1:scope3"
-		"scope4:scope5:scope6"
+		"scope1:scope2",
+		"scope1:scope3",
+		"scope4:scope5:scope6",
 		"scope7"
 	]
 } ]
